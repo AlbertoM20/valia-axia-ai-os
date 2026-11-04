@@ -1,0 +1,23 @@
+{
+  "version": "0.2-public-demo",
+  "stages": [
+    "Asignado",
+    "Contacto",
+    "Agenda",
+    "Presentación",
+    "Dudas técnicas",
+    "Promesa cierre"
+  ],
+  "terminal_outcomes": [
+    "Ganado",
+    "Perdido"
+  ],
+  "manual_approval_required_for": [
+    "external_message",
+    "financial_commitment",
+    "contract",
+    "credit_decision",
+    "sensitive_data_export",
+    "pricing_change"
+  ]
+}
