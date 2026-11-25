@@ -1,0 +1,15 @@
+/* AXIA Official Design Tokens — Brandbook Junio 2026, p.32–34. NO MODIFY. */
+:root {
+  --axia-ink: #1C1A32;
+  --axia-lavender: #D8D8E1;
+  --axia-lime: #C3EE10;
+  --axia-magenta: #E4368A;
+  --axia-electric: #1000BD;
+  --axia-white: #F5F5F5;
+  --axia-font-primary: "Afacad";
+  --axia-font-secondary: "Stack Sans Text";
+}
+.axia-brand { background-color: var(--axia-ink); color: var(--axia-white); font-family: var(--axia-font-secondary), sans-serif; }
+.axia-brand h1,.axia-brand h2,.axia-brand h3 { font-family: var(--axia-font-primary), sans-serif; }
+.axia-brand .axia-cta { background-color: var(--axia-lime); color: var(--axia-ink); }
+.axia-brand .axia-cta:focus-visible { outline: 2px solid var(--axia-magenta); outline-offset: 3px; }
